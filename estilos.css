@@ -1,0 +1,170 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F0E7;
+    color: #20231F;
+    font-family: Arial, sans-serif;
+}
+
+/* TOPO */
+
+.fundo-cinza {
+    background-color: #20231F;
+    color: white;
+}
+
+.topo {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.topo h1 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+
+.topo p {
+    color: #D8C7A3;
+    margin-top: 8px;
+}
+
+.letra-logo {
+    color: #D8C7A3;
+}
+
+/* MENU */
+
+.fundo-menu {
+    background-color: #71816B;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    padding: 18px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #D8C7A3;
+}
+
+/* CONTEÚDO */
+
+.content {
+    padding: 45px 0;
+}
+
+.apresentacao {
+    background-color: #D8C7A3;
+    padding: 50px;
+    border-radius: 8px;
+    margin-bottom: 35px;
+}
+
+.apresentacao h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.apresentacao p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+
+/* CARDS */
+
+.card {
+    padding: 25px;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #71816B;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background-color: #20231F;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    background-color: #20231F;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+/* CELULAR */
+
+@media (max-width: 768px) {
+
+    .menu {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .apresentacao {
+        padding: 25px;
+    }
+
+    .apresentacao h2 {
+        font-size: 28px;
+    }
+
+}
+
+*{
+    margin: 0 auto;
+}
+
+img{
+    width: 250px;
+    height: 275px;
+    padding: 10px;
+    float: left;
+}
+
+
+.imagem-esquerda{
+    
+    float: left;
+    margin: 0 15px 10px 0;
+    max-width: 200px;
+
+}
+
+
+

@@ -1,0 +1,76 @@
+
+/* CONTAINER */
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* LINHAS */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* COLUNAS */
+
+.col-12 {
+    width: 100%;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+
+    .col-4 {
+        width: 100%;
+    }
+
+}
+
+.offset-1 {
+  grid-column-start: 2;
+}
+.offset-2 {
+  grid-column-start: 3;
+}
+.offset-3 {
+  grid-column-start: 4;
+}
+.offset-4 {
+  grid-column-start: 5;
+}
+.offset-5 {
+  grid-column-start: 6;
+}
+.offset-6 {
+  grid-column-start: 7;
+}
+.offset-7 {
+  grid-column-start: 8;
+}
+.offset-8 {
+  grid-column-start: 9;
+}
+.offset-10 {
+  grid-column-start: 11;
+}
+.offset-11 {
+  grid-column-start: 12;
+}
+.offset-12 {
+  grid-column-start: 13;
+}
+   
+.img
+{float: left;
+
+}
+    
+  
